@@ -1,0 +1,10 @@
+@page
+@model Categories //Namespace RazorApp.Pages já importado em _ViewImports
+@{
+    ViewData["Title"] = "Suas categorias";
+}
+
+@foreach (var item in @Model.CategoriesList)
+{
+    <p>*@item.Title</p>
+}

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "FzeTSftZeDEdChrPOsMn62DN4wbwxP/jE6Nfyh+XpTg=",
+  "Source": "RazorApp",
+  "BasePath": "_content/RazorApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorApp\\wwwroot",
+      "Source": "RazorApp",
+      "ContentRoot": "F:\\Pessoal\\Cursos\\Balta.io\\razor\\RazorApp\\wwwroot\\",
+      "BasePath": "_content/RazorApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

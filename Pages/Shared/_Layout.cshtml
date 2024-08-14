@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    @if (ViewData["Title"] != null)
+    {
+        <title>
+            @ViewData["Title"]
+        </title>
+    }
+    else
+    {
+        <title>Meu Primeiro RazorApp </title>
+    }
+
+</head>
+
+<body>
+    <header>
+        <partial name="_Menu" />
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+
+</body>
+
+</html>
