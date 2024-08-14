@@ -1,10 +1,3 @@
-F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.GeneratedMSBuildEditorConfig.editorconfig
-F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.AssemblyInfoInputs.cache
-F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.AssemblyInfo.cs
-F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.csproj.CoreCompileInputs.cache
-F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.MvcApplicationPartsAssemblyInfo.cache
-F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.RazorAssemblyInfo.cache
-F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.RazorAssemblyInfo.cs
 F:\Pessoal\Cursos\Balta.io\razor\RazorApp\bin\Debug\net8.0\appsettings.Development.json
 F:\Pessoal\Cursos\Balta.io\razor\RazorApp\bin\Debug\net8.0\appsettings.json
 F:\Pessoal\Cursos\Balta.io\razor\RazorApp\bin\Debug\net8.0\RazorApp.staticwebassets.runtime.json
@@ -13,6 +6,14 @@ F:\Pessoal\Cursos\Balta.io\razor\RazorApp\bin\Debug\net8.0\RazorApp.deps.json
 F:\Pessoal\Cursos\Balta.io\razor\RazorApp\bin\Debug\net8.0\RazorApp.runtimeconfig.json
 F:\Pessoal\Cursos\Balta.io\razor\RazorApp\bin\Debug\net8.0\RazorApp.dll
 F:\Pessoal\Cursos\Balta.io\razor\RazorApp\bin\Debug\net8.0\RazorApp.pdb
+F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.AssemblyInfoInputs.cache
+F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.AssemblyInfo.cs
+F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.csproj.CoreCompileInputs.cache
+F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.MvcApplicationPartsAssemblyInfo.cache
+F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.RazorAssemblyInfo.cache
+F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.RazorAssemblyInfo.cs
+F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\RazorApp.sourcelink.json
 F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\staticwebassets.build.json
 F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\staticwebassets.development.json
 F:\Pessoal\Cursos\Balta.io\razor\RazorApp\obj\Debug\net8.0\staticwebassets\msbuild.RazorApp.Microsoft.AspNetCore.StaticWebAssets.props

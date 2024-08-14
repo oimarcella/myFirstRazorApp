@@ -4,13 +4,18 @@ namespace RazorApp.Pages;
 public class Categories : PageModel
 {
     public List<Category> CategoriesList { get; set; } = new();
-    public void OnGet()
+    public void OnGet(int pageNumber = 1, int take = 15)
     {// Executado sempre que a página for renderizada, ou seja quando for feito GET
 
-        for (int i = 0; i <= 100; i++)
+        var auxList = new List<Category>();
+
+        for (int i = 0; i <= 1787; i++)
         {
-            CategoriesList.Add(new Category(i, $"Categoria-{i}", i * 18.95M));
+            auxList.Add(new Category(i, $"Categoria-{i}", i * 18.95M));
         }
+
+        var skip = (pageNumber - 1) * take;
+        CategoriesList = auxList.Skip(skip).Take(take).ToList();
     }
 
     public void OnPost()
