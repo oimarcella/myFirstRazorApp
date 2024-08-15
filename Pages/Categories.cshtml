@@ -1,10 +1,30 @@
-@page "/categorias/{pageNumber:int?}/{take:int?}"
+@page "/categorias/{pageNumber:int?}/{take:int?}" //Parametros opcionais
 @model Categories //Namespace RazorApp.Pages já importado em _ViewImports
 @{
     ViewData["Title"] = "Suas categorias";
+    var itemsPorPagina = 15;
+    var qtdPaginas = @Model.Total / itemsPorPagina;
+}
+
+@section Scripts {
+    <script type="text/javascript">
+        alert("Hello World");
+    </script>
 }
 
 @foreach (var item in @Model.CategoriesList)
 {
     <p>*@item.Title</p>
 }
+<strong>Páginas @qtdPaginas</strong>
+<ul>
+    @for (var item = 1; item <= qtdPaginas; item++)
+    {
+        <a style="padding: 10px 15px; cursor: pointer; text-decoration: none; color: black;"
+            onmouseover="this.style.backgroundColor='lightgray'; this.style.color='blue';"
+            onmouseout="this.style.backgroundColor=''; this.style.color='black';"
+            href="@Url.Page("/categorias", new { pageNumber = item, take = itemsPorPagina })">
+            Página @item
+        </a>
+    }
+</ul>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FzeTSftZeDEdChrPOsMn62DN4wbwxP/jE6Nfyh+XpTg=",
+  "Hash": "ZLzr2lLfmsI4nnL6z8sBRKpS7z958EJhxxFnDaqO/xk=",
   "Source": "RazorApp",
   "BasePath": "_content/RazorApp",
   "Mode": "Default",
@@ -15,5 +15,25 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "F:\\Pessoal\\Cursos\\Balta.io\\razor\\RazorApp\\wwwroot\\css\\site.css",
+      "SourceId": "RazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Pessoal\\Cursos\\Balta.io\\razor\\RazorApp\\wwwroot\\",
+      "BasePath": "_content/RazorApp",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ]
 }
